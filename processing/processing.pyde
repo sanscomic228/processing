@@ -1,0 +1,17 @@
+def setup():
+    background(255)
+    fullScreen() 
+def draw():
+    fill(0)
+    circle(width/2,height/2,500)
+    stroke(255)
+    strokeWeight(20)
+    translate(30,0)
+    line(width/2-80,height/2+150,width/2-80,height/2-60)
+    line(width/2-120,height/2+150,width/2-40,height/2+150)
+    line(width/2-120,height/2-60,width/2-80,height/2-60)
+    line(width/2-45,height/2+45,width/2+20,height/2+45)
+    line(width/2+20,height/2+45,width/2+20,height/2-30)
+    line(width/2-45,height/2-35,width/2+20,height/2-35)
+    line(width/2+20,height/2-30,width/2+20,height/2-110)
+    line(width/2-45,height/2-110,width/2+20,height/2-110)
